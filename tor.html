@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/jpg" href="img/jlogo.png">
+    <title>J U N J I E</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap'">
+</head>
+<style type="text/css">
+    
+    @page {
+        size: A4 portrait !important;
+        margin: 20mm;
+    }
+
+    @media print {
+        .app-body { background-color:white; }
+        .app-body { visibility: hidden; }
+        .app-header {
+            display: none;
+        }
+
+        .printable-area {
+            visibility: visible;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .printable-area table  {
+            width: 100%;
+            font-size: 12px;
+        }
+        .printable-area .details1 {
+            font-size: 12px;
+        }
+        .printable-area .details2 {
+            font-size: 12px;
+        }
+        .printable-area .notice {
+            font-size: 12px;
+        }
+        .printable-area * {
+            visibility: visible;
+        }
+        .card {
+            border: transparent;
+        }
+    }
+
+</style>
+<body class="app-body">
+    <header class="app-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="logo" href="home.html">Junjie Morales</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <button class="btn btn-dark mt-2" id="btn-print">Download / Print</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="app-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <div class="card printable-area">
+                    <img src="img/ACTIEF_Header.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <!-- <h3 class="m-auto">ASIAN COLLEGE OF TECHNOLOGY</h3>
+                            <h5 class="m-auto">Corner Leon Kilat and P. Del</h5>
+                            <h5 class="m-auto">Rosario Street. Cebu City,</h5>
+                            <h6 class="m-auto">Philippines 6000</h6>
+                            <hr> -->
+                            <h4 class="m-auto">TRANSCRIPT OF RECORDS - LOCAL</h4>
+                        </div>
+                        <div class="row mb-3 details1">
+                            <div class="col-sm-6 col-lg-6">
+                                <p class="m-auto"><strong>Name :</strong> MORALES, JUNJIE OTIDA.</p>
+                                <p class="m-auto"><strong>Address :</strong> Bag-ong Silingan, Brgy Mactan, Lapu Lapu City, Cebu 6015</p>
+                                <p class="m-auto"><strong>Date of Birth :</strong> July 08, 1996</p>
+                                <p class="m-auto"><strong>Place of Birth :</strong> Cebu City</p>
+                            </div>
+                            <div class="col-sm-6 col-lg-6 details2">
+                                <p class="m-auto"><strong>ID Number :</strong> 13-2026062</p>
+                                <p class="m-auto"><strong>Date of Addmission :</strong> First Semester A.Y. 2013</p>
+                                <p class="m-auto"><strong>Course Pursue :</strong> BACHELOR OF SCIENCE</p>
+                                <p class="m-auto"><strong>Date of Graduation :</strong> March 23, 2018</p>
+                                <p class="m-auto"><strong>DEGREE :</strong> BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</p>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="text-center">
+                                    <th>Term</th>
+                                    <th>Course Number</th>
+                                    <th>Descriptive Title</th>
+                                    <th>Credits</th>
+                                    <th>Final Grade</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="8" class="text-center">First Year, 1st Semester <br> 2013-2014</td>
+                                        <td>ITEFUN</td>
+                                        <td>ITE Fundamentals</td>
+                                        <td>3.0</td>
+                                        <td>2.40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COPER1</td>
+                                        <td>Computer Operations 1: Office Productivity Software (MS Office)</td>
+                                        <td>3.0</td>
+                                        <td>2.80</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CPROG1</td>
+                                        <td>Computer Programming 1: Programming Fundamentals</td>
+                                        <td>3.0</td>
+                                        <td>2.80</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JRIZAL</td>
+                                        <td>Life and Works of Jose Rizal</td>
+                                        <td>3.0</td>
+                                        <td>2.20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>STSKIL</td>
+                                        <td>Study and Thinking Skills in English</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COLALG</td>
+                                        <td>College Algebra</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NSTP01</td>
+                                        <td>National Service Training Program 1</td>
+                                        <td>3.0</td>
+                                        <td>2.40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PEDUC1</td>
+                                        <td>Physical FitnessCollege Algebra</td>
+                                        <td>2.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="7" class="text-center">First Year, 2nd Semester <br> 2013-2014</td>
+                                        <td>NSTP02</td>
+                                        <td>National Service Training Program 2</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COPER2</td>
+                                        <td>Computer Operations 2: Graphics Design and Image Processing</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CPROG2</td>
+                                        <td>Computer Programming 2: Programming Using C#.NET</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FILIP1</td>
+                                        <td>Komunikasyon sa Akademikong Filipino</td>
+                                        <td>3.0</td>
+                                        <td>2.60</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WRIDIS</td>
+                                        <td>Writing in the Disciplines</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PSTRIG</td>
+                                        <td>Plane and Spherical Trigonometry</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PEDUC2</td>
+                                        <td>Rhythmic Activities</td>
+                                        <td>2.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="6" class="text-center">Second Year, 1st Semester <br> 2014-2015</td>
+                                        <td>ACCPRI</td>
+                                        <td>Accounting Principles</td>
+                                        <td>6.0</td>
+                                        <td>2.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>OOPROG</td>
+                                        <td>Object-Oriented Programming</td>
+                                        <td>3.0</td>
+                                        <td>2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NTWRK1</td>
+                                        <td>CCNA Exploration: Network Fundamentals</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FILIP2</td>
+                                        <td>Pagbasa at Pagsulat Tungo sa Pananaliksik</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COLCHE</td>
+                                        <td>College Chemistry</td>
+                                        <td>3.0</td>
+                                        <td>2.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PEDUC3</td>
+                                        <td>Individual/Dual Sports/Games</td>
+                                        <td>2.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="6" class="text-center">Second Year, 2nd Semester <br> 2014-2015</td>
+                                        <td>ITFRE1</td>
+                                        <td>IT Free Elective 1</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DABASE</td>
+                                        <td>Database Principles and Applications</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SPEECH</td>
+                                        <td>Speech and Oral Communications</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>COLPHY</td>
+                                        <td>College Physics</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PEDUC4</td>
+                                        <td>Team Sports/Games</td>
+                                        <td>2.0</td>
+                                        <td>1.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITELE1</td>
+                                        <td>IT ITE Elective 1</td>
+                                        <td>3.0</td>
+                                        <td>2.40</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="6" class="text-center">Third Year, 1st Semester <br> 2016-2017</td>
+                                        <td>WEBDEV</td>
+                                        <td>Web Development and E-Commerce</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITEETH</td>
+                                        <td>ITE Professional Ethics</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LOGICT</td>
+                                        <td>Logic and Critical Thinking</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>TECWRI</td>
+                                        <td>Technical Writing and Research</td>
+                                        <td>3.0</td>
+                                        <td>2.70</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DISMAT</td>
+                                        <td>Discrete Mathematics</td>
+                                        <td>3.0</td>
+                                        <td>2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITELE2</td>
+                                        <td>IT ITE Elective 2</td>
+                                        <td>3.0</td>
+                                        <td>2.70</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="5" class="text-center">Third Year, 2nd Semester <br> 2016-2017</td>
+                                        <td>SOFENG</td>
+                                        <td>Software Engineering</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITPRA1</td>
+                                        <td>IT Practicum 1</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ANIMUL</td>
+                                        <td>Animation & Multimedia Production</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GENPSY</td>
+                                        <td>General Psychology with Drug Abuse Prevention</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PROSTA</td>
+                                        <td>Probability and Statistics</td>
+                                        <td>3.0</td>
+                                        <td>3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="6" class="text-center">Fourth Year, 1st Semester <br> 2017-2018</td>
+                                        <td>SSPRO1</td>
+                                        <td>Special System Project 1</td>
+                                        <td>3.0</td>
+                                        <td>2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITELE3</td>
+                                        <td>IT ITE Elective 3</td>
+                                        <td>3.0</td>
+                                        <td>2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITPRA2</td>
+                                        <td>IT Practicum 2</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITFRE2</td>
+                                        <td>IT Free Elective 2</td>
+                                        <td>3.0</td>
+                                        <td>2.60</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ECOTAR</td>
+                                        <td>Basic Economics with Taxation and Agrarian Reform</td>
+                                        <td>3.0</td>
+                                        <td>2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHILIT</td>
+                                        <td>The Literatures of the Philippines</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="5" class="text-center">Fourth Year, 2nd Semester <br> 2017-2018</td>
+                                        <td>ITFRE3</td>
+                                        <td>IT Free Elective 3</td>
+                                        <td>3.0</td>
+                                        <td>2.40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>OPESYS</td>
+                                        <td>Operating Systems</td>
+                                        <td>3.0</td>
+                                        <td>2.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ITELE4</td>
+                                        <td>IT ITE Elective 4</td>
+                                        <td>3.0</td>
+                                        <td>2.60</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PHIHIS</td>
+                                        <td>Philippine History and Culture</td>
+                                        <td>3.0</td>
+                                        <td>2.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>POLGOV</td>
+                                        <td>Politics and Governance with Philippine Constitutio</td>
+                                        <td>3.0</td>
+                                        <td>2.70</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                        </div>
+                        <p><strong>REMARKS : </strong> FOR EMPLOYMENT PURPOSES</p>
+                        <div class="text-start mb-3">
+                            <p class="m-auto notice"><strong>Notice :</strong> This is not valid for transfer. This is not an official copy of your transcript.<br>
+                                The Curriculum contents are subject to change based on Course Equivalencies.
+                            </p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><strong>Please settle the following:</strong> 
+                                <ul>
+                                    <li class="text-danger">Please settle your balance with the amount of 69730.99</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <!-- <div class="card-footer">
+                        <span class="text-primary small float-end">DFJ Tech © 2022</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <div class="footer text-end">
+        <p class="text-muted">- JUNJIE O. MORALES | Allrights Reserved © 2024</p>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $('#btn-print').click(function() {
+        window.print();
+    });
+</script>
+</html>
