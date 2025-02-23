@@ -87,7 +87,6 @@ i {
 .home {
 	width: 100%;
 	height: auto;
-	padding: 60px 20px;
 	background: url(img/code.jpg) no-repeat center;
 
 }
@@ -102,7 +101,7 @@ i {
 }
 .h2-home {
 	margin-top: -20px ;
-	font-size: 6rem;
+	font-size: 5rem;
 	color: #F1F1F1;
 	font-family: "Bakbak One", serif;
   	font-style: normal;
@@ -110,28 +109,38 @@ i {
 	text-shadow: 4px 6px 2px rgba(43, 43, 43);
 }
 .p-text-home {
-	margin-top: -20px;
+	margin-top: -10px;
 	color: #666666;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 @media screen and (max-width: 600px) {
-	.h1-home {
-	  font-size:  4rem;
-	  margin-bottom: 15px;
+	.home-1 {
+		font-size:  6rem;
+		margin-bottom: -190px;
+	}
+	.home-2 {
+		font-size:  5rem;
+		position: relative;
+		display: flex;
 	}
 	.h2-home {
 		font-size:  2rem;
 	}
 	.p-text-home {
-		font-size: 14px;
+		font-size: 1rem;
 		margin-top: 10px;
 	}
 
 }
 @media screen and (max-width: 320px) {
-	.h1-home {
-	  font-size:  4rem;
-	  margin-bottom: 15px;
+	.home-1 {
+		font-size:  6rem;
+		margin-bottom: -190px;
+	}
+	.home-2 {
+		font-size:  5rem;
+		position: relative;
+		display: flex;
 	}
 	.h2-home {
 		font-size:  1.6rem;
@@ -225,25 +234,60 @@ i {
 	font-size: 1rem;
 }
 .skills {
-	border-radius: 10px;
+	border-radius: 5px;
 	border: solid 1px #333333;
-	box-shadow: 10px 10px 0px 0px rgba(43, 43, 43);
+	padding: 10px 0 5px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #666666;
+	/* box-shadow: 10px 10px 0px 0px rgba(43, 43, 43);
 	-webkit-box-shadow: 10px 10px 0px 0px rgba(43, 43, 43);
-	-moz-box-shadow: 10px 10px 0px 0px rgba(43, 43, 43);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(43, 43, 43); */
 }
+h6.html {
+	color: #e34c26;
+}
+h6.css {
+	color: #264de4;
+}
+h6.javascript {
+	color: #f0db4f;
+}
+h6.jquery {
+	color: #0769ad;
+}
+h6.php {
+	color: #8993be;
+}
+h6.sql {
+	color: #34445a;
+}
+h6.mysql {
+	color: #c74835;
+}
+h6.git {
+	color: #f34f29;
+}
+h6.github {
+	color: #7f7f7f;
+}
+h6.bootstrap {
+	color: #3f7c8c;
+}
+
 .h5-skills {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 1rem;
-	padding: 20px 0 20px 0;
-	border-bottom: solid 1px #333333;
+	padding: 20px 0 10px 0;
+	/* border-bottom: solid 1px #333333; */
   	text-shadow: 1px 1px #ffffff;
 }
 
 ul .li-skills {
 	padding: 10px 0 10px 0;
 	color: #666666;
-	/* border-bottom: solid 1px #333333; */
+	border: solid 1px #333333;
 }
 /*.bg-skills {
 	background-image: url(img/skills.png);
